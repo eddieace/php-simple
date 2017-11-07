@@ -1,0 +1,12 @@
+{
+    "name": "eddieace/PhpSimple",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edvard Åkerberg",
+            "email": "edvard@4film.se"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
