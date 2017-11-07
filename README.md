@@ -9,14 +9,13 @@ Updated version of the simplehtmldom for php 7.1+.
 
 http://simplehtmldom.sourceforge.net/
 
-
 Install
 -------
 
  composer.phar
 ```json
 "require": {
-    "eddieace/php-simple": "1.1.*"
+    "eddieace/php-simple": "1.0.*"
     }
 ```
  composer require
