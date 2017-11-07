@@ -8,5 +8,11 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=7.0.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-0": { "Eddieace\\PhpSimple\\HtmlDomParser": "src/" }
+    }
 }
