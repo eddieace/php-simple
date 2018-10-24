@@ -1,6 +1,7 @@
 {
     "name": "eddieace/php-simple",
     "license": "MIT",
+    "keywords": ["scrapeing", "scraper","crawler", "php", "web-scraping", "web-scraper"],
     "authors": [
         {
             "name": "Edvard Åkerberg",
