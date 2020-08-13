@@ -5,7 +5,7 @@ Version 1.0.0
 
 Adaptation for Composer and PSR-0 of:
 
-Updated version of the simplehtmldom for php 7.1+.
+Updated version of the simplehtmldom for php 7.3+.
 
 http://simplehtmldom.sourceforge.net/
 
