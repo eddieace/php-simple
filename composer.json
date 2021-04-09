@@ -14,6 +14,6 @@
         "ext-mbstring": "*"
     },
     "autoload": {
-        "psr-0": { "Eddieace\\PhpSimple\\HtmlDomParser": "src/" }
+        "psr-4": { "Eddieace\\PhpSimple\\": "src/" }
     }
 }
