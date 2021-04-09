@@ -1,9 +1,9 @@
 php-simple
 ==========================
 
-Version 1.0.0
+Version 1.0.4
 
-Adaptation for Composer and PSR-0 of:
+PSR-4 compatible
 
 Updated version of the simplehtmldom for php 7.3+.
 
@@ -27,7 +27,7 @@ Usage
 -----
 
 ```php
-use Eddieace\PhpSimple\;
+use Eddieace\PhpSimple\HtmlDomParser;
 
 ...
 $dom = HtmlDomParser::str_get_html( $str );
@@ -36,5 +36,16 @@ $dom = HtmlDomParser::file_get_html( $file_name );
 
 $elems = $dom->find($elem_name);
 ...
+```
+Example
+-----
+```php
+use Eddieace\PhpSimple\HtmlDomParser;
+
+$html = HtmlDomParser::file_get_html("http://example.com/");
+$results = $html->find('h1');
+echo $results[0]->plaintext;
+
+//output : Example Domain
 
 ```
